@@ -1,0 +1,74 @@
+/* 
+CSS floating
+
+Clear Float using clear: both; css rule
+
+boder-radius
+line-height
+text-transform: uppercase || lowercase;
+https://www.youtube.com/user/DevTipsForDesigners/playlists
+
+explain me what is var and what is variable in JavaScript || programming in general
+
+*/
+
+div.container {
+    margin: 0px auto;
+    width: 995px;
+    font-size: 24px;
+    font-family: helvetica;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+div:hover {
+    color: #D40000;
+    cursor: pointer;
+    background: #CFCFCF;
+}
+
+.header {
+    width: 995px;
+    height: 70px;
+    background: #00a651;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.mainDiv {
+    width: 995px;
+    height: 500px;
+    background: #7CC576;
+    color: #FFFFFF;
+    line-height: 500px;
+    text-align: center;
+}
+
+.floatingDiv {
+    background: #2D566C;
+}
+
+.commonDiv {
+    width: 325px;
+    height: 470px;
+    margin: 5px 0 5px 5px;
+    background: #00a651;
+    float: left;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 470px;
+}
+
+div.dummy {
+    clear: both;
+}
+
+.footer {
+    width: 995px;
+    height: 150px;
+    background: #00a651;
+    line-height: 150px;
+    text-align: center;
+    color: #FFFFFF;
+}
